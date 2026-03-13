@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="?attr/colorSurface"> <!-- Adapts to light/dark card background -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Club Name -->
+        <TextView
+            android:id="@+id/tv_club_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginBottom="4dp"
+            tools:text="Karate Club Alpha" />
+
+        <!-- Instructor Name -->
+        <TextView
+            android:id="@+id/tv_instructor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="4dp"
+            tools:text="Instructor: John Doe" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/tv_club_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="4dp"
+            tools:text="Email: club.alpha@example.com" />
+
+        <!-- Initials -->
+        <TextView
+            android:id="@+id/tv_initials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            tools:text="Initials: KCA" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

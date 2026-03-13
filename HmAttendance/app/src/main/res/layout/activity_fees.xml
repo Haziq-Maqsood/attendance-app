@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/android:colorBackground"
+    tools:context=".fees">
+
+    <!-- Custom Toolbar -->
+<androidx.appcompat.widget.Toolbar
+android:id="@+id/toolbar"
+android:layout_width="match_parent"
+android:layout_height="?attr/actionBarSize"
+android:background="?attr/colorPrimary"    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/CustomToolbarPopupTheme">
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/back_button"
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:padding="8dp"
+    android:src="@drawable/fees"
+    android:contentDescription="@string/cd_back_button"
+    app:tint="?attr/colorOnPrimary" />
+<TextView
+    android:id="@+id/toolbar_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@id/back_button"
+    android:layout_marginStart="16dp"
+    android:layout_centerVertical="true"
+    android:text="@string/fees_submission_title"
+    android:textColor="?attr/colorOnPrimary"
+android:textSize="24sp"
+android:textStyle="bold" />
+
+</RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Student ID Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_student_id"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_student_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters"
+            android:maxLength="9"
+            android:textColor="?attr/colorOnSurface" /> <!-- Adapts to text color on surface -->
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_search_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_search_student"
+        android:layout_gravity="end"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"
+        android:layout_marginBottom="24dp"
+        android:textAllCaps="false" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_student_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="?attr/colorSurface">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_details_label"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:id="@+id/tv_student_name_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_name_placeholder"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_student_id_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_id_placeholder_display"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:id="@+id/fees_checkbox_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/background_rounded_card"
+    android:elevation="2dp"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fees_to_submit_label"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_monthly_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fee_type_monthly"
+        android:textColor="?attr/colorOnSurface"
+        android:buttonTint="?attr/colorPrimary"
+        android:paddingVertical="8dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_exam_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fee_type_exam"
+        android:textColor="?attr/colorOnSurface"
+        android:buttonTint="?attr/colorPrimary"
+        android:paddingVertical="8dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_annual_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fee_type_annual"
+        android:textColor="?attr/colorOnSurface"
+        android:buttonTint="?attr/colorPrimary"
+        android:paddingVertical="8dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_miscellaneous_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fee_type_miscellaneous"
+        android:textColor="?attr/colorOnSurface"
+        android:buttonTint="?attr/colorPrimary"
+        android:paddingVertical="8dp"/>
+
+</LinearLayout>
+
+
+<Button
+    android:id="@+id/btn_submit_fees"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/btn_submit_fees"
+    android:backgroundTint="?attr/colorSecondary"
+android:textColor="?attr/colorOnSecondary"
+android:textSize="20sp"
+android:textStyle="bold"
+android:paddingVertical="15dp"
+android:layout_marginTop="24dp"
+android:visibility="gone" />
+
+</LinearLayout>
+    </ScrollView>
+    </LinearLayout>

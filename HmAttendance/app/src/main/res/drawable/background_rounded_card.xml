@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?attr/colorSurface" /> <!-- Adapts to light/dark surface color -->
+    <corners android:radius="8dp" />
+    <stroke android:width="1dp" android:color="?attr/colorOutline" /> <!-- Adapts to light/dark outline color -->
+</shape>

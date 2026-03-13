@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="primary_purple">#673AB7</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="light_background">#F5F5F5</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#008000</color>
+    <color name="yellow">#FFDE21</color>
+    <color name="toolbar_blue">#2196F3</color>
+    <color name="menu_background_light_gray">#F0F0F0</color>
+    <color name="menu_text_dark">#333333</color>
+    <color name="menu_popup_background_light">#FFFFFF
+    </color> <!-- White background for light mode popup -->
+    <color name="menu_popup_text_light">#333333</color>     <!-- Dark text for light mode popup -->
+
+    <!-- Menu Popup Colors - Dark Mode -->
+    <color name="menu_popup_background_dark">#2C2C2C
+    </color> <!-- Dark gray background for dark mode popup -->
+    <color name="menu_popup_text_dark">#FFFFFF</color>
+
+    <color name="toolbar_background_light">#2196F3</color>
+    <color name="toolbar_text_icon_color_light">#FFFFFF</color>
+    <color name="app_background_light">#EFEFEF</color>
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="card_text_color_light">#333333</color>
+
+
+    <color name="primary_light">#2196F3</color>
+    <color name="onPrimary_light">#FFFFFF</color>
+    <color name="primaryContainer_light">#D0E4FF</color>
+    <color name="onPrimaryContainer_light">#001C3A</color>
+
+    <color name="secondary_light">#673AB7</color>
+    <color name="onSecondary_light">#FFFFFF</color>
+    <color name="secondaryContainer_light">#EADDFF</color>
+    <color name="onSecondaryContainer_light">#21005D</color>
+
+    <color name="tertiary_light">#00BCD4</color>
+    <color name="onTertiary_light">#FFFFFF</color>
+    <color name="tertiaryContainer_light">#BAF3FF</color>
+    <color name="onTertiaryContainer_light">#001F24</color>
+
+    <color name="background_light">#F5F5F5</color>
+    <color name="onBackground_light">#1C1B1F</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="onSurface_light">#1C1B1F</color>
+    <color name="surfaceVariant_light">#E7E0EB</color>
+    <color name="onSurfaceVariant_light">#49454E</color>
+
+    <color name="error_light">#B00020</color>
+    <color name="onError_light">#FFFFFF</color>
+    <color name="outline_light">#7A757F</color>
+
+
+    <color name="primary_dark">#90CAF9</color>
+    <color name="onPrimary_dark">#003366</color>
+    <color name="primaryContainer_dark">#004A8F</color>
+    <color name="onPrimaryContainer_dark">#D0E4FF</color>
+
+    <color name="secondary_dark">#D0BCFF</color>
+    <color name="onSecondary_dark">#381E72</color>
+    <color name="secondaryContainer_dark">#4F378B</color>
+    <color name="onSecondaryContainer_dark">#EADDFF</color>
+
+    <color name="tertiary_dark">#6EE0FF</color>
+    <color name="onTertiary_dark">#00363D</color>
+    <color name="tertiaryContainer_dark">#004F58</color>
+    <color name="onTertiaryContainer_dark">#BAF3FF</color>
+
+    <color name="background_dark">#1C1B1F</color>
+    <color name="onBackground_dark">#E6E1E5</color>
+    <color name="surface_dark">#1C1B1F</color>
+    <color name="onSurface_dark">#E6E1E5</color>
+    <color name="surfaceVariant_dark">#49454E</color>
+    <color name="onSurfaceVariant_dark">#CAC4D0</color>
+
+    <color name="error_dark">#CF6679</color>
+    <color name="onError_dark">#2C001E</color>
+    <color name="outline_dark">#948F99</color>
+    <!-- Define colors if not already present -->
+    <color name="screen_background_color">#F5F5F5</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="text_color_secondary">#757575</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="red_500">#F44336</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="accent_color">#FF4081</color>
+    <color name="dark_gray">#AAAAAA</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+</resources>

@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">Hm Attendance</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- ... existing strings ... -->
+
+    <string name="student_records_title">Student Records</string>
+    <string name="no_student_records_found">No student records found.</string>
+
+    <string name="format_name">Name: %s</string>
+    <string name="format_father_name">Father: %s</string>
+    <string name="format_age">Age: %d</string>
+    <string name="format_admission_date">Admitted: %s</string>
+
+
+    <string name="admission_form_title">Student Admission Form</string>
+    <string name="cd_back_button">Back button</string>
+    <string name="cd_student_image">Student Image</string>
+    <string name="student_id_placeholder">Student ID: %s</string>
+    <string name="hint_student_name">Student Name</string>
+    <string name="hint_father_name">Father\'s Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_admission_date">Admission Date (YYYY-MM-DD)</string>
+    <string name="label_gender">Gender:</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="label_belt">Belt Level:</string>
+    <string name="select_belt_hint">-- Select Belt --</string>
+    <string name="hint_email">Email (Optional)</string>
+    <string name="hint_phone">Phone (Optional)</string>
+    <string name="hint_address">Address</string>
+    <string name="btn_submit_admission">Submit Admission</string>
+    <string name="btn_clear_form">Clear Form</string>
+    <string name="select_image_source">Select Image Source</string>
+    <string name="option_camera">Camera</string>
+    <string name="option_gallery">Gallery</string>
+
+    <string-array name="belt_levels">
+        <item>White Belt</item>
+        <item>Yellow Belt</item>
+        <item>Green Belt</item>
+        <item>Blue Belt</item>
+        <item>Red Belt</item>
+        <item>Black Belt</item>
+    </string-array>
+    <!-- ... existing strings ... -->
+    <string name="mark_attendance_title">Mark Attendance</string>
+    <string name="date_label">Date:</string>
+    <string name="select_date_hint">Select Date</string>
+    <string name="student_name_header">Student Name</string>
+    <string name="status_header">Status</string>
+    <string name="status_present">Present</string>
+    <string name="status_absent">Absent</string>
+    <string name="status_late">Late</string>
+    <string name="status_excused">Excused</string>
+    <string name="save_attendance_button">Save Attendance</string>
+
+    <string-array name="attendance_statuses">
+        <item>Present</item>
+        <item>Absent</item>
+    </string-array>
+
+    <string name="monthly_attendance_title">Monthly Attendance Summary</string>
+    <string name="month_label">Month:</string>
+    <string name="year_label">Year:</string>
+    <string name="year_hint">YYYY</string>
+    <string name="status_present_initial">P</string>
+    <string name="status_absent_initial">A</string>
+    <string name="status_late_initial">L</string>
+    <string name="status_excused_initial">E</string>
+    <string name="total_marked_initial">Total</string>
+    <string name="no_monthly_attendance_data">No attendance data found for the selected month and year.</string>
+
+    <string-array name="month_names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="update_club_title">Update Club Details</string>
+    <string name="club_name_label">Club Name</string>
+    <string name="instructor_name_label">Instructor Name</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="initials_label">Initials</string>
+    <string name="enter_instructor_name">Enter instructor name</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="enter_password">Enter password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="club_updated_successfully">Club updated successfully!</string>
+    <string name="failed_to_update_club">Failed to update club.</string>
+    <string name="club_not_found">Club not found.</string>
+    <string name="club_name_missing">Club name missing for update.</string>
+    <string name="select_club_to_update">Select Club to Update:</string>
+
+    <string name="select_a_club_prompt">-- Select a Club --</string>
+
+    <string name="all_students_title">All Students</string>
+    <string name="filter_by_club">Filter by Club:</string>
+    <string name="belt_counts_title">Belt Counts:</string>
+    <string name="select_all_clubs">All Clubs</string>
+    <string name="cd_filter_button">Filter Students</string>
+
+    <string name="belt_white">White Belt</string>
+    <string name="belt_yellow">Yellow Belt</string>
+    <string name="belt_green">Green Belt</string>
+    <string name="belt_blue">Blue Belt</string>
+    <string name="belt_red">Red Belt</string>
+    <string name="belt_black">Black Belt</string>
+
+
+    <string name="simple_fees_title">Student Fees Status</string>
+    <string name="no_students_found">No students found for this club.</string>
+    <string name="display_clubs_title">Club Records</string>
+    <string name="no_clubs_found">No club records found.</string>
+    <string name="club_name_format">Club: %s</string>
+    <string name="instructor_name_format">Instructor: %s</string>
+    <string name="email_format">Email: %s</string>
+    <string name="initials_format">Initials: %s</string>
+
+    <string name="back_button_desc">Back</string>
+    <string name="pick_month_desc">Pick Month</string>
+    <string name="add_club_title">Add New Club</string>
+
+    <string name="club_name_hint">Club Name *</string>
+    <string name="instructor_name_hint">Instructor Name</string>
+    <string name="email_hint">Email *</string>
+    <string name="password_hint">Password *</string>
+    <string name="initials_hint">Initials</string>
+    <string name="add_club_button_text">Add Club</string>
+
+    <!--        <string name="error_empty_field">Please fill in all required fields.</string>-->
+    <string name="add_club_success">Club added successfully!</string>
+    <string name="add_club_failure">Failed to add club. Club name might already exist.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+
+    <string name="update_student_title">Update Student Record</string>
+    <string name="hint_search_student_id">Enter Student ID to Update</string>
+    <string name="student_details_edit_label">Edit Student Details:</string>
+    <string name="hint_student_class">Class</string>
+    <string name="hint_student_roll_no">Roll Number</string>
+    <string name="hint_student_phone">Phone Number</string>
+    <string name="hint_student_address">Address</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save_changes">Save Changes</string>
+
+    <string name="error_empty_search_id">Please enter a student ID to search.</string>
+    <string name="student_not_found_update">Student with this ID not found.</string>
+    <string name="student_found_for_update">Student found. Please update details.</string>
+    <string name="error_empty_field">This field cannot be empty.</string>
+    <string name="update_successful">Student record updated successfully!</string>
+    <string name="update_failed">Failed to update student record.</string>
+    <string name="no_changes_made">No changes were made.</string>
+
+
+    <!-- ... existing strings ... -->
+
+    <string name="fees_submission_title">Fees Submission</string>
+    <string name="hint_student_id">Student ID (e.g., HM-100100)</string>
+    <string name="btn_search_student">Search Student</string>
+    <string name="student_details_label">Student Details:</string>
+    <string name="student_name_placeholder">Name: Not Found</string>
+    <string name="student_id_placeholder_display">ID: Not Found</string>
+    <string name="fees_to_submit_label">Fees to Submit:</string>
+    <string name="fee_type_monthly">Monthly Fee</string>
+    <string name="fee_type_exam">Exam Fee</string>
+    <string name="fee_type_annual">Annual Fee</string>
+    <string name="fee_type_miscellaneous">Miscellaneous Fee</string>
+    <string name="btn_submit_fees">Submit Fees</string>
+
+    <!-- Messages -->
+    <string name="error_empty_student_id">Please enter a student ID</string>
+    <string name="student_found">Student found!</string>
+    <string name="student_not_found">Student not found. Please check the ID.</string>
+    <string name="error_no_student_selected">No student selected for fees submission.</string>
+    <string name="error_no_fees_selected">Please select at least one fee type.</string>
+    <string name="fees_submitted_for">Fees submitted for %s</string>
+    <string name="form_cleared">Form cleared.</string>
+
+    <string name="student_name_format">Name: %s</string> <!-- Re-using or defining for fees display -->
+
+
+    <string name="app_logo_description">HM attendance Logo</string>
+    <string name="login_slogan">Stay Connected, Stay Accounted.</string>
+    <string name="login_title">Login to Your Account</string>
+    <string name="hint_username">Username or Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="login_success_message">Login successful!</string>
+    <string name="login_failed_message">Invalid username or password.</string>
+    <string name="username_empty_error">Username cannot be empty</string>
+    <string name="password_empty_error">Password cannot be empty</string>
+    <string name="no_account_text">Don\'t have an account?</string>
+    <string name="signup_text">Sign Up</string>
+
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="error_invalid_age">Please enter a valid age.</string>
+    <string name="no_students_found_for_club">No students found for %1$s\n</string>
+    <string name="student_id">Student ID</string>
+    <string name="belt_placeholder">Belt : %s</string>
+    <string name="belt_placeholder2">" : %s"</string>
+    <string name="belt_placeholder21">%s</string>
+</resources>

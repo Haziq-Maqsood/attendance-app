@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/rounded_card_background"> <TextView
+    android:id="@+id/tv_belt_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textColor="@color/primary_text_color"
+    android:textSize="14sp"
+    tools:text="White Belt" />
+
+    <TextView
+        android:id="@+id/tv_belt_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent_color"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp"
+        tools:text="15" />
+</LinearLayout>

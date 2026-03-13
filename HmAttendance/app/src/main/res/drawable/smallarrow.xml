@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="40dp"
+        android:height="40dp"
+        android:drawable="@drawable/outline_arrow_drop_down_24"
+        android:gravity="center|bottom"/>
+</layer-list>
